@@ -1,16 +1,43 @@
-# btaqty_eg
+# flutter-id-card
 
-A new Flutter project.
+Simple Flutter ID card app with profile image, name, role, and contact info.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Requirements
+- Flutter SDK
 
-A few resources to get you started if this is your first Flutter project:
+### Run
+```bash
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Assets
+The profile image is loaded from:
+```
+image/mn.jpg
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Make sure assets are listed in:
+```
+pubspec.yaml
+```
+
+### Screenshots
+Add screenshots to:
+```
+docs/screenshot.png
+```
+Then update the README if you want to show them here.
+
+### GitHub Pages
+This repo includes a simple landing page in:
+```
+docs/index.html
+```
+To enable GitHub Pages:
+1. Open the repo on GitHub.
+2. Go to Settings → Pages.
+3. Source: Deploy from a branch.
+4. Branch: `main`, Folder: `/docs`.
